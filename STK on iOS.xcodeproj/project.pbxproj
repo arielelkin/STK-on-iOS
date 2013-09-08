@@ -18,7 +18,27 @@
 		B0A760E617DCAC5700A7D944 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A760E517DCAC5700A7D944 /* Default-568h@2x.png */; };
 		B0A760E917DCAC5700A7D944 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A760E717DCAC5700A7D944 /* MainStoryboard.storyboard */; };
 		B0A760EC17DCAC5700A7D944 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A760EB17DCAC5700A7D944 /* ViewController.m */; };
+		B0A760FC17DCAFE000A7D944 /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A760F917DCAFD000A7D944 /* libTheAmazingAudioEngine.a */; };
+		B0A760FF17DCAFE000A7D944 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A760FD17DCAFE000A7D944 /* Accelerate.framework */; };
+		B0A7610017DCAFE000A7D944 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A760FE17DCAFE000A7D944 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0A760F817DCAFD000A7D944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A760F417DCAFCF00A7D944 /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
+		B0A760FA17DCAFD700A7D944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A760F417DCAFCF00A7D944 /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C215CEB1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B0A760CC17DCAC5600A7D944 /* STK on iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STK on iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +57,9 @@
 		B0A760E817DCAC5700A7D944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B0A760EA17DCAC5700A7D944 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0A760EB17DCAC5700A7D944 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0A760F417DCAFCF00A7D944 /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = TheAmazingAudioEngine/TheAmazingAudioEngine.xcodeproj; sourceTree = "<group>"; };
+		B0A760FD17DCAFE000A7D944 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B0A760FE17DCAFE000A7D944 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A760FF17DCAFE000A7D944 /* Accelerate.framework in Frameworks */,
+				B0A7610017DCAFE000A7D944 /* AudioToolbox.framework in Frameworks */,
+				B0A760FC17DCAFE000A7D944 /* libTheAmazingAudioEngine.a in Frameworks */,
 				B0A760D017DCAC5600A7D944 /* UIKit.framework in Frameworks */,
 				B0A760D217DCAC5600A7D944 /* Foundation.framework in Frameworks */,
 				B0A760D417DCAC5600A7D944 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +82,7 @@
 		B0A760C317DCAC5600A7D944 = {
 			isa = PBXGroup;
 			children = (
+				B0A760F417DCAFCF00A7D944 /* TheAmazingAudioEngine.xcodeproj */,
 				B0A760D517DCAC5600A7D944 /* STK on iOS */,
 				B0A760CE17DCAC5600A7D944 /* Frameworks */,
 				B0A760CD17DCAC5600A7D944 /* Products */,
@@ -73,6 +100,8 @@
 		B0A760CE17DCAC5600A7D944 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0A760FD17DCAFE000A7D944 /* Accelerate.framework */,
+				B0A760FE17DCAFE000A7D944 /* AudioToolbox.framework */,
 				B0A760CF17DCAC5600A7D944 /* UIKit.framework */,
 				B0A760D117DCAC5600A7D944 /* Foundation.framework */,
 				B0A760D317DCAC5600A7D944 /* CoreGraphics.framework */,
@@ -107,6 +136,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B0A760F517DCAFCF00A7D944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A760F917DCAFD000A7D944 /* libTheAmazingAudioEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +158,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B0A760FB17DCAFD700A7D944 /* PBXTargetDependency */,
 			);
 			name = "STK on iOS";
 			productName = "STK on iOS";
@@ -146,12 +184,28 @@
 			mainGroup = B0A760C317DCAC5600A7D944;
 			productRefGroup = B0A760CD17DCAC5600A7D944 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B0A760F517DCAFCF00A7D944 /* Products */;
+					ProjectRef = B0A760F417DCAFCF00A7D944 /* TheAmazingAudioEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B0A760CB17DCAC5600A7D944 /* STK on iOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B0A760F917DCAFD000A7D944 /* libTheAmazingAudioEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTheAmazingAudioEngine.a;
+			remoteRef = B0A760F817DCAFD000A7D944 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B0A760CA17DCAC5600A7D944 /* Resources */ = {
@@ -180,6 +234,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0A760FB17DCAFD700A7D944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TheAmazingAudioEngine;
+			targetProxy = B0A760FA17DCAFD700A7D944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B0A760D817DCAC5700A7D944 /* InfoPlist.strings */ = {
@@ -262,6 +324,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "STK on iOS/STK on iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = TheAmazingAudioEngine/TheAmazingAudioEngine;
 				INFOPLIST_FILE = "STK on iOS/STK on iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -273,6 +336,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "STK on iOS/STK on iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = TheAmazingAudioEngine/TheAmazingAudioEngine;
 				INFOPLIST_FILE = "STK on iOS/STK on iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
