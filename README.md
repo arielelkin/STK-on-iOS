@@ -14,7 +14,7 @@ Please read the [original thread](http://ccrma-mail.stanford.edu/pipermail/stk/2
 
 
 ##Steps so far:
-1. [Download STK 4.4.4](https://ccrma.stanford.edu/software/stk/download.html)
+1. [Get the STK](https://github.com/thestk/stk)
 1. Copy only the following directories into a new and empty STK folder in the repository: 
  * **include/**
  * **rawwaves/**
@@ -24,7 +24,7 @@ Please read the [original thread](http://ccrma-mail.stanford.edu/pipermail/stk/2
 1. Open your Build Settings, add `stk/include/` to your Header Search Paths:
 ![](http://i.imgur.com/Ww5oeSs.png)
 
-1. Remove the following files (`.h` files are in **include/**, `.cpp` files are in **src/**:
+1. Remove the following files (`.h` files are in **include/**, `.cpp` files are in **src/**):
 
 Multithreading:
 * `Thread.h`
