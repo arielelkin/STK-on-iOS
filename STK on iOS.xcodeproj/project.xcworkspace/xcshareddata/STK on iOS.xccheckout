@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A41289A-4732-4072-983F-9AF7D5F6F3FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>STK on iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C032FB3-5B03-4A63-854B-AB2BAA1AC796</key>
+		<string>ssh://github.com/arielelkin/STK-on-iOS.git</string>
+		<key>FB217EC2-1FE4-4B58-BD8C-6D6916D103FD</key>
+		<string>https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>STK on iOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C032FB3-5B03-4A63-854B-AB2BAA1AC796</key>
+		<string>../..</string>
+		<key>FB217EC2-1FE4-4B58-BD8C-6D6916D103FD</key>
+		<string>../../TheAmazingAudioEngine</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/arielelkin/STK-on-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C032FB3-5B03-4A63-854B-AB2BAA1AC796</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C032FB3-5B03-4A63-854B-AB2BAA1AC796</string>
+			<key>IDESourceControlWCCName</key>
+			<string>STK-on-iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB217EC2-1FE4-4B58-BD8C-6D6916D103FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheAmazingAudioEngine</string>
+		</dict>
+	</array>
+</dict>
+</plist>

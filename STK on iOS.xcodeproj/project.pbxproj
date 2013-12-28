@@ -362,6 +362,7 @@
 				B0A760F117DCAC5700A7D944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
