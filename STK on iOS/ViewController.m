@@ -21,8 +21,10 @@
     [super viewDidLoad];
     
     //Create an AEAudioController to setup our realtime audio session:
-    AEAudioController *audioController = [[AEAudioController alloc] initWithAudioDescription:[AEAudioController nonInterleavedFloatStereoAudioDescription]
-                                                                                inputEnabled:NO];
+    AEAudioController *audioController = [[AEAudioController alloc] initWithAudioDescription:
+                                          [AEAudioController nonInterleavedFloatStereoAudioDescription]
+                                                                                inputEnabled:NO
+                                          ];
     
     NSError *errorAudioSetup = NULL;
     
