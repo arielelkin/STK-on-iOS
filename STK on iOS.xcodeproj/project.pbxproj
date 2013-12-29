@@ -137,7 +137,7 @@
 		B0A760E417DCAC5700A7D944 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A760E317DCAC5700A7D944 /* Default@2x.png */; };
 		B0A760E617DCAC5700A7D944 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A760E517DCAC5700A7D944 /* Default-568h@2x.png */; };
 		B0A760E917DCAC5700A7D944 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A760E717DCAC5700A7D944 /* MainStoryboard.storyboard */; };
-		B0A760EC17DCAC5700A7D944 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A760EB17DCAC5700A7D944 /* ViewController.m */; };
+		B0A760EC17DCAC5700A7D944 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0A760EB17DCAC5700A7D944 /* ViewController.mm */; };
 		B0A760FC17DCAFE000A7D944 /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A760F917DCAFD000A7D944 /* libTheAmazingAudioEngine.a */; };
 		B0A760FF17DCAFE000A7D944 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A760FD17DCAFE000A7D944 /* Accelerate.framework */; };
 		B0A7610017DCAFE000A7D944 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A760FE17DCAFE000A7D944 /* AudioToolbox.framework */; };
@@ -399,7 +399,7 @@
 		B0A760E517DCAC5700A7D944 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B0A760E817DCAC5700A7D944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B0A760EA17DCAC5700A7D944 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0A760EB17DCAC5700A7D944 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0A760EB17DCAC5700A7D944 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		B0A760F417DCAFCF00A7D944 /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = TheAmazingAudioEngine/TheAmazingAudioEngine.xcodeproj; sourceTree = "<group>"; };
 		B0A760FD17DCAFE000A7D944 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		B0A760FE17DCAFE000A7D944 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -722,7 +722,7 @@
 				B0A760DF17DCAC5700A7D944 /* AppDelegate.m */,
 				B0A760E717DCAC5700A7D944 /* MainStoryboard.storyboard */,
 				B0A760EA17DCAC5700A7D944 /* ViewController.h */,
-				B0A760EB17DCAC5700A7D944 /* ViewController.m */,
+				B0A760EB17DCAC5700A7D944 /* ViewController.mm */,
 				B0A760D617DCAC5700A7D944 /* Supporting Files */,
 			);
 			path = "STK on iOS";
@@ -940,7 +940,7 @@
 				B08E94DB186F952300E8354C /* SineWave.cpp in Sources */,
 				B08E94EE186F952300E8354C /* Whistle.cpp in Sources */,
 				B08E94CE186F952300E8354C /* Plucked.cpp in Sources */,
-				B0A760EC17DCAC5700A7D944 /* ViewController.m in Sources */,
+				B0A760EC17DCAC5700A7D944 /* ViewController.mm in Sources */,
 				B08E94AA186F952300E8354C /* FileWvIn.cpp in Sources */,
 				B08E94AE186F952300E8354C /* FM.cpp in Sources */,
 				B08E94EC186F952300E8354C /* Voicer.cpp in Sources */,
